@@ -12,6 +12,7 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 #include "rev6.h"
+#include "config.h"
 
 #ifdef RGB_MATRIX_ENABLE
 led_config_t g_led_config = { {
@@ -62,6 +63,7 @@ led_config_t g_led_config = { {
     2, 2, 2, 2, 2, 2
 
 } };
+
 #endif
 
 #ifdef ENCODER_ENABLE
