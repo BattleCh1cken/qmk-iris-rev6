@@ -56,6 +56,13 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* serial.c configuration for split keyboard */
 #define SOFT_SERIAL_PIN D0
 
+
+//Tap dance
+#define TAPPING_TERM 175
+#define TAPPING_TERM_PER_KEY
+
+//#define FORCE_NKRO
+
 /* ws2812 RGB LED */
 #define RGB_DI_PIN E6
 #ifdef RGB_DI_PIN
@@ -102,8 +109,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //#        define ENABLE_RGB_MATRIX_CYCLE_PINWHEEL
 //#        define ENABLE_RGB_MATRIX_CYCLE_SPIRAL
 //#        define ENABLE_RGB_MATRIX_DUAL_BEACON
-//#        define ENABLE_RGB_MATRIX_RAINBOW_BEACON
-//#        define ENABLE_RGB_MATRIX_RAINBOW_PINWHEELS
+#        define ENABLE_RGB_MATRIX_RAINBOW_BEACON
+#        define ENABLE_RGB_MATRIX_RAINBOW_PINWHEELS
 #define ENABLE_RGB_MATRIX_JELLYBEAN_RAINDROPS
 //#define ENABLE_RGB_MATRIX_SOLID_COLOR
 // enabled only if RGB_MATRIX_FRAMEBUFFER_EFFECTS is defined
